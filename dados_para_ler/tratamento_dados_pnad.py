@@ -8,7 +8,7 @@ arquivos_csv = [
     'dados_para_ler/PNAD_COVID_112020.csv'
 ]
 
-# Suas 15 colunas selecionadas para análise (baseadas no que você informou)
+# Suas 15 colunas selecionadas para análise
 colunas_selecionadas = [
     'Ano', 'UF', 'CAPITAL', 'V1012', 'V1013', 'V1008', 'Estrato', 'UPA',
     'V1022', 'V1030', 'B0011', 'C001', 'D0011', 'E001', 'F001'
