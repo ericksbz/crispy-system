@@ -27,3 +27,57 @@ Neste projeto, foram analisados dados de 3 meses de 2020 (setembro, outubro e no
 
 ```bash
 python tratamento_dados_pnad.py
+
+4.O script irá gerar o arquivo pnadcovid_tratado_3meses.csv com os dados consolidados e exibirá análises descritivas no terminal.
+
+Variáveis selecionadas
+As 15 variáveis selecionadas para análise foram:
+
+Ano
+
+UF (Estado)
+
+CAPITAL
+
+V1012 (Sexo)
+
+V1013 (Idade)
+
+V1008 (Renda)
+
+Estrato
+
+UPA
+
+V1022
+
+V1030
+
+B0011
+
+C001
+
+D0011
+
+E001
+
+F001
+
+Obs: As descrições completas das variáveis podem ser consultadas no dicionário oficial da PNAD COVID-19 disponível no site do IBGE.
+
+Requisitos
+Python 3.x
+
+Pandas
+
+Instale as dependências com:
+
+bash
+Copiar
+Editar
+pip install pandas
+
+Referências
+Pesquisa PNAD COVID-19: https://www.ibge.gov.br/estatisticas/sociais/saude/27947-divulgacao-mensal-pnadcovid2.html
+
+Dicionário de variáveis PNAD COVID-19: arquivo XLS disponível na mesma página.
